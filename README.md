@@ -1,6 +1,11 @@
 # pi-openrouter-free-rate-limit-resilience
 
-A pi extension for quiet, resilient retries with OpenRouter `*:free` models.
+![pi extension](https://img.shields.io/badge/pi-extension-blue)
+![pi package](https://img.shields.io/badge/pi-package-blueviolet)
+
+A pi.dev / pi coding agent extension for quiet, resilient retries with OpenRouter `*:free` models.
+
+This repository is an installable pi package. Its `package.json` declares the extension under the `pi.extensions` manifest key.
 
 ## Installation
 
