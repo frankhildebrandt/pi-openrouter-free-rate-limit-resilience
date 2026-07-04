@@ -1,6 +1,6 @@
 # pi-openrouter-free-rate-limit-resilience
 
-Pi-Extension für stille, resiliente Retries bei OpenRouter-`*:free` Modellen.
+A pi extension for quiet, resilient retries with OpenRouter `*:free` models.
 
 ## Installation
 
@@ -8,19 +8,19 @@ Pi-Extension für stille, resiliente Retries bei OpenRouter-`*:free` Modellen.
 pi install https://github.com/frankhildebrandt/pi-openrouter-free-rate-limit-resilience
 ```
 
-Oder lokal im Projekt:
+Or install it from a local checkout:
 
 ```bash
 pi install ./
 ```
 
-## Was es macht
+## What it does
 
-- erkennt OpenRouter-Free-Rate-Limits
-- retryt bei Bedarf deutlich länger / unbegrenzt
-- blendet die Retry-Noise aus
-- zeigt nur einen kleinen Wartestatus an
+- detects OpenRouter free-model rate limits
+- retries much longer / indefinitely when needed
+- hides retry noise from the transcript and UI
+- shows only a small waiting status
 
-## Hinweis
+## Warning
 
-Die Extension greift intern tief in die Session-Verarbeitung ein. Nur verwenden, wenn du der Quelle vertraust.
+This extension patches pi's internal session handling. Only install it from sources you trust.

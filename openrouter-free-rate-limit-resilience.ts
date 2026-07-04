@@ -91,7 +91,7 @@ function retryDelayMs(settings: RetrySettings, attempt: number, message: Assista
 
 function updateRateLimitUi(session: any): void {
 	const ui = session?._extensionUIContext;
-	ui?.setWidget?.("openrouter-free-retry", ["🚦 waiting for ratelimit"]);
+	ui?.setWidget?.("openrouter-free-retry", ["🚦 waiting for rate limit"]);
 }
 
 function clearRateLimitUi(session: any): void {
@@ -329,7 +329,7 @@ export default async function (pi: ExtensionAPI) {
 	pi.registerCommand("openrouter-retry-resilience", {
 		description: "Show OpenRouter free-model retry resilience status",
 		handler: async (_args, ctx) => {
-			ctx.ui.notify("OpenRouter :free 429 resilience is active: unlimited silent retries; rate limits show only: 🚦 waiting for ratelimit", "info");
+			ctx.ui.notify("OpenRouter :free 429 resilience is active: unlimited silent retries; rate limits show only: 🚦 waiting for rate limit", "info");
 		},
 	});
 }
