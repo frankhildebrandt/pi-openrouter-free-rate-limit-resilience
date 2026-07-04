@@ -2,6 +2,8 @@
   "name": "pi-openrouter-free-rate-limit-resilience",
   "version": "0.1.0",
   "description": "Installable pi.dev extension for quiet, resilient retries on OpenRouter free models",
+  "author": "Frank Hildebrandt",
+  "license": "MIT",
   "homepage": "https://github.com/frankhildebrandt/pi-openrouter-free-rate-limit-resilience#readme",
   "repository": {
     "type": "git",

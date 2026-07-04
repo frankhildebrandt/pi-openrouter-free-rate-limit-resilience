@@ -29,3 +29,7 @@ pi install ./
 ## Warning
 
 This extension patches pi's internal session handling. Only install it from sources you trust.
+
+## License
+
+MIT © Frank Hildebrandt
