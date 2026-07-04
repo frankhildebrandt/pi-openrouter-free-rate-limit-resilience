@@ -1,0 +1,20 @@
+{
+  "name": "pi-openrouter-free-rate-limit-resilience",
+  "version": "0.1.0",
+  "description": "Pi extension for quiet, resilient retries on OpenRouter free models",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "openrouter",
+    "rate-limit",
+    "resilience"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./openrouter-free-rate-limit-resilience.ts"
+    ]
+  }
+}
